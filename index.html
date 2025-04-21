@@ -209,54 +209,109 @@
             </div>
         </div>
 
-        <!-- Comparisons Table -->
+        <!-- Comparisons Section -->
         <div class="mt-20">
-            <h3 class="text-2xl font-bold text-center mb-8" data-translate="comparisonsTitle">
-                Comparación con otros launchers
-            </h3>
-            <div class="overflow-x-auto">
-                <table class="w-full border-collapse">
-                    <thead>
-                        <tr class="bg-secondary">
-                            <th class="p-4 text-left border-b border-gray-700" data-translate="feature">Característica</th>
-                            <th class="p-4 text-center border-b border-gray-700">CubicMC</th>
-                            <th class="p-4 text-center border-b border-gray-700">Launcher A</th>
-                            <th class="p-4 text-center border-b border-gray-700">Launcher B</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-gray-700">
-                        <tr class="hover:bg-secondary/50">
-                            <td class="p-4" data-translate="performanceFeature">Rendimiento</td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr class="hover:bg-secondary/50">
-                            <td class="p-4" data-translate="customThemes">Temas personalizados</td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
-                        </tr>
-                        <tr class="hover:bg-secondary/50">
-                            <td class="p-4" data-translate="modSupport">Soporte de mods</td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr class="hover:bg-secondary/50">
-                            <td class="p-4" data-translate="openSource">Código abierto</td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
-                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
-                        </tr>
-                        <tr class="hover:bg-secondary/50">
-                            <td class="p-4" data-translate="offlineMode">Modo sin conexión</td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
-                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <h3 class="text-2xl font-bold text-center mb-8" data-translate="comparisonsTitle"></h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature Labels -->
+                <div class="space-y-6">
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="font-bold text-lg" data-translate="feature"></span>
+                    </div>
+                    <div class="p-4 bg-secondary/30 rounded-lg h-16 flex items-center">
+                        <span class="font-medium" data-translate="performanceFeature"></span>
+                    </div>
+                    <div class="p-4 bg-secondary/30 rounded-lg h-16 flex items-center">
+                        <span class="font-medium" data-translate="customThemes"></span>
+                    </div>
+                    <div class="p-4 bg-secondary/30 rounded-lg h-16 flex items-center">
+                        <span class="font-medium" data-translate="modSupport"></span>
+                    </div>
+                    <div class="p-4 bg-secondary/30 rounded-lg h-16 flex items-center">
+                        <span class="font-medium" data-translate="openSource"></span>
+                    </div>
+                    <div class="p-4 bg-secondary/30 rounded-lg h-16 flex items-center">
+                        <span class="font-medium" data-translate="offlineMode"></span>
+                    </div>
+                    <div class="p-4 bg-secondary/30 rounded-lg h-16 flex items-center">
+                        <span class="font-medium" data-translate="safeLauncher"></span>
+                    </div>
+                </div>
+
+                <!-- CubicMC -->
+                <div class="space-y-6">
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="font-bold text-lg text-accent">CubicMC</span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                </div>
+
+                <!-- Launcher A -->
+                <div class="space-y-6">
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="font-bold text-lg">TLauncher</span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+
+                <!-- Launcher B -->
+                <div class="space-y-6">
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="font-bold text-lg">Battly</span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-accent text-xl"><i class="fas fa-check"></i></span>
+                    </div>
+                    <div class="p-4 bg-secondary rounded-lg h-16 flex items-center justify-center">
+                        <span class="text-gray-500 text-xl"><i class="fas fa-times"></i></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
