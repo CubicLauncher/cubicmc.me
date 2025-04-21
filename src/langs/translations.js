@@ -40,9 +40,28 @@ const translations = {
         customThemes: "Temas personalizados",
         modSupport: "Soporte de mods",
         offlineMode: "Modo sin conexión",
-        safeLauncher: "Seguro"
+        safeLauncher: "Seguro",
+
+        // About Page
+        aboutTitle: "Acerca de",
+        aboutDescription: "Creamos CubicMC Launcher para hacer posible jugar Minecraft con características avanzadas y una interfaz moderna, proporcionando una experiencia perfecta para todos los jugadores.",
+        maintainers: "Mantenedores",
+        contributors: "Colaboradores",
+        projectLinks: "Enlaces del Proyecto",
+        sourceCode: "Código Fuente",
+        githubIssues: "Problemas de Github",
+        discordCommunity: "Comunidad de Discord",
+        
+        // Maintainers descriptions
+        frontendDev: "Semi Full Stack | Dueño CubicMc",
+        frontendDesc: "Soy un desarrollador apasionado por crear aplicaciones web intuitivas y escalables. Con experiencia en múltiples tecnologías, me especializo en ofrecer soluciones que combinan funcionalidad y estética.",
+        backendDev: "Desarrollador Backend | Dueño CubicMc",
+        backendDesc: "Desarrollador de sistemas principales, enfocado en el rendimiento y la estabilidad del launcher",
+        systemsArch: "???",
+        systemsDesc: "???",
         // end
     },
+    
     en: {
         // navbar
         home: 'Home',
@@ -84,7 +103,25 @@ const translations = {
         customThemes: "Custom Themes",
         modSupport: "Mod Support",
         offlineMode: "Offline Mode",
-        safeLauncher: "Safe"
+        safeLauncher: "Safe",
+
+        // About Page
+        aboutTitle: "About",
+        aboutDescription: "We created CubicMC Launcher to make it possible to play Minecraft with advanced features and a modern interface, providing a seamless experience for all players.",
+        maintainers: "Maintainers",
+        contributors: "Contributors",
+        projectLinks: "Project Links",
+        sourceCode: "Source Code",
+        githubIssues: "Github Issues",
+        discordCommunity: "Discord Community",
+        
+        // Maintainers descriptions
+        frontendDev: "Semi Full Stack | Owner CubicMc",
+        frontendDesc: "I am a developer passionate about creating intuitive and scalable web applications. With experience in multiple technologies, I specialize in offering solutions that combine functionality and aesthetics.",
+        backendDev: "Backend Developer",
+        backendDesc: "Core systems developer, focused on launcher performance and stability",
+        systemsArch: "???",
+        systemsDesc: "???",
         // end
     }
 };
