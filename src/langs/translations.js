@@ -15,7 +15,15 @@ const translations = {
         customizationDesc: 'Soporta temas personalizados.',
         noDrm: 'Sin DRM',
         noDrmDesc: 'Juega Minecraft fácilmente sin restricciones.',
-        rights: 'Otra forma de jugar gratis a Minecraft.'
+        rights: 'Otra forma de jugar gratis a Minecraft.',
+        screenshotsTitle: "Vista previa",
+        screenshotsDesc: "Descubre la interfaz moderna y las características únicas de CubicMC",
+        comparisonsTitle: "Comparación con otros launchers",
+        feature: "Característica",
+        performanceFeature: "Rendimiento",
+        customThemes: "Temas personalizados",
+        modSupport: "Soporte de mods",
+        offlineMode: "Modo sin conexión"
     },
     en: {
         home: 'Home',
@@ -33,6 +41,14 @@ const translations = {
         customizationDesc: 'Supports custom themes.',
         noDrm: 'DRM Free',
         noDrmDesc: 'Play Minecraft easily without restrictions.',
-        rights: 'Another way to play Minecraft for free.'
+        rights: 'Another way to play Minecraft for free.',
+        screenshotsTitle: "Preview",
+        screenshotsDesc: "Discover CubicMC's modern interface and unique features",
+        comparisonsTitle: "Launcher Comparison",
+        feature: "Feature",
+        performanceFeature: "Performance",
+        customThemes: "Custom Themes",
+        modSupport: "Mod Support",
+        offlineMode: "Offline Mode"
     }
 };
