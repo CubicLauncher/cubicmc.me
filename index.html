@@ -166,6 +166,101 @@
         </div>
     </div>
 
+    <!-- Screenshots & Comparisons Section -->
+    <div class="max-w-7xl mx-auto px-4 py-16 border-t border-gray-700">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">
+                <span data-translate="screenshotsTitle">Capturas de Pantalla</span>
+            </h2>
+            <p class="text-gray-300 max-w-2xl mx-auto" data-translate="screenshotsDesc">
+                Descubre la interfaz moderna y las características únicas de CubicMC
+            </p>
+        </div>
+
+        <!-- Screenshots Carousel -->
+        <div class="relative mb-20">
+            <div id="screenshotsCarousel" class="overflow-hidden rounded-xl">
+                <div class="flex transition-transform duration-500 ease-in-out">
+                    <!-- Slides container -->
+                    <div class="min-w-full flex-shrink-0">
+                        <img src="https://wallpaperaccess.com/full/1641769.jpg" alt="CubicMC Interface" class="w-full h-[500px] object-cover rounded-xl">
+                    </div>
+                    <div class="min-w-full flex-shrink-0">
+                        <img src="https://wallpaperboat.com/wp-content/uploads/2021/09/20/78678/waifu-11.jpg" alt="CubicMC Mods" class="w-full h-[500px] object-cover rounded-xl">
+                    </div>
+                    <div class="min-w-full flex-shrink-0">
+                        <img src="https://wallpapercave.com/wp/wp2417186.png" alt="CubicMC Settings" class="w-full h-[500px] object-cover rounded-xl">
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <button id="prevSlide" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white p-3 rounded-full transition-colors">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="nextSlide" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white p-3 rounded-full transition-colors">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <!-- Carousel Indicators -->
+            <div class="flex justify-center mt-4 gap-2">
+                <button class="w-3 h-3 rounded-full bg-accent transition-colors"></button>
+                <button class="w-3 h-3 rounded-full bg-gray-600 transition-colors"></button>
+                <button class="w-3 h-3 rounded-full bg-gray-600 transition-colors"></button>
+            </div>
+        </div>
+
+        <!-- Comparisons Table -->
+        <div class="mt-20">
+            <h3 class="text-2xl font-bold text-center mb-8" data-translate="comparisonsTitle">
+                Comparación con otros launchers
+            </h3>
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="bg-secondary">
+                            <th class="p-4 text-left border-b border-gray-700" data-translate="feature">Característica</th>
+                            <th class="p-4 text-center border-b border-gray-700">CubicMC</th>
+                            <th class="p-4 text-center border-b border-gray-700">Launcher A</th>
+                            <th class="p-4 text-center border-b border-gray-700">Launcher B</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700">
+                        <tr class="hover:bg-secondary/50">
+                            <td class="p-4" data-translate="performanceFeature">Rendimiento</td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr class="hover:bg-secondary/50">
+                            <td class="p-4" data-translate="customThemes">Temas personalizados</td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
+                        </tr>
+                        <tr class="hover:bg-secondary/50">
+                            <td class="p-4" data-translate="modSupport">Soporte de mods</td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr class="hover:bg-secondary/50">
+                            <td class="p-4" data-translate="openSource">Código abierto</td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
+                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
+                        </tr>
+                        <tr class="hover:bg-secondary/50">
+                            <td class="p-4" data-translate="offlineMode">Modo sin conexión</td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                            <td class="p-4 text-center text-gray-500"><i class="fas fa-times"></i></td>
+                            <td class="p-4 text-center text-accent"><i class="fas fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-secondary mt-12 border-t border-gray-700">
         <div class="max-w-7xl mx-auto py-10 px-6">
@@ -192,5 +287,6 @@
     <script src="./src/langs/language.js"></script>
     <script src="./src/scripts/langButton.js"></script>
     <script src="./src/scripts/mobileMenu.js"></script>
+    <script src="./src/scripts/carousel.js"></script>
 </body>
 </html> 
