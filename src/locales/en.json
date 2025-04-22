@@ -1,0 +1,28 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "downloads": "Downloads",
+    "menu": "Menu",
+    "myAccount": "My Account",
+    "profile": "Profile",
+    "settings": "Settings",
+    "myGames": "My Games",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Cubic",
+    "subtitle": "The best open source and free Minecraft launcher.",
+    "download": "Download",
+    "openSource": "Open Source"
+  },
+  "footer": {
+    "copyright": "© 2024 All rights reserved",
+    "madeWith": "Made with",
+    "byTeam": "by the CubicMC team",
+    "version": "v1.0.0",
+    "beta": "Beta"
+  }
+} 
