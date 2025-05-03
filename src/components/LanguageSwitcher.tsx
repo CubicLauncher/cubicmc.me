@@ -3,7 +3,9 @@
 import { useLanguage } from '@/lib/LanguageContext';
 
 export const LanguageSwitcher = () => {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, isLoaded } = useLanguage();
+
+  if (!isLoaded) return null;
 
   return (
     <div className="flex items-center space-x-2">
