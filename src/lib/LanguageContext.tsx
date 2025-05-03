@@ -9,12 +9,14 @@ interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
   t: (key: string) => string;
+  isLoaded: boolean;
 }
 
 const LanguageContext = createContext<LanguageContextType>({
   language: 'en',
   setLanguage: () => {},
   t: () => '',
+  isLoaded: false,
 });
 
 export const useLanguage = () => useContext(LanguageContext);
@@ -26,6 +28,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     }
     return 'en';
   });
+  const [isLoaded, setIsLoaded] = useState(false);
   const [translations, setTranslations] = useState<Translations>({});
 
   useEffect(() => {
@@ -39,6 +42,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       } catch (error) {
         console.error('Error loading translations:', error);
       }
+      setIsLoaded(true);
     };
 
     loadTranslations();
@@ -60,7 +64,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage, t, isLoaded }}>
       {children}
     </LanguageContext.Provider>
   );
