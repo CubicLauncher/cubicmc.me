@@ -3,16 +3,37 @@
 import { useLanguage } from '@/lib/LanguageContext';
 import { Download, Github } from 'lucide-react';
 import { Features } from './Features';
+import { useState } from 'react';
 
 function Hero() {
     const { t } = useLanguage();
+    const [showEasterEgg, setShowEasterEgg] = useState(false);
 
     return (
         <main className="min-h-screen pb-32 relative overflow-hidden">
+            {showEasterEgg && (
+                <div className="fixed inset-0 w-full h-full z-50 bg-black/80 flex items-center justify-center">
+                    <img 
+                        src="https://s4.gifyu.com/images/bLQRQ.gif" 
+                        alt="Easter Egg"
+                        className="max-w-[80%] max-h-[80vh] rounded-lg shadow-2xl"
+                    />
+                    <button 
+                        onClick={() => setShowEasterEgg(false)}
+                        className="absolute top-4 right-4 text-white text-2xl hover:text-red-500"
+                    >
+                        ✕
+                    </button>
+                </div>
+            )}
+            
             <section className="flex flex-col items-center gap-8 mb-16 relative z-10">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center mt-24">
-                        <h1 className="text-8xl font-semibold tracking-tighter text-white/80">
+                        <h1 
+                            className="text-8xl font-semibold tracking-tighter text-white/80 cursor-pointer hover:text-white transition-colors duration-300"
+                            onClick={() => setShowEasterEgg(true)}
+                        >
                             {t('hero.title')}
                         </h1>
                         <h1 className="text-8xl hover:text-white transition-colors duration-1000 font-semibold tracking-tighter bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-white/50 via-green/50 to-green-500 bg-clip-text text-transparent">
