@@ -9,7 +9,7 @@ function Footer() {
     const { t } = useLanguage();
 
     return (
-        <footer className="fixed bottom-0 left-0 right-0 bg-[#232323]/80 backdrop-blur-xl border-t border-white/10 p-4 transition-all duration-300 hover:bg-[#232323]/90 hover:border-white/20">
+        <footer className="bg-[#232323]/80 backdrop-blur-xl border-t border-white/10 p-4 transition-all duration-300 hover:bg-[#232323]/90 hover:border-white/20">
             <div className="container mx-auto flex justify-between items-center text-white/70">
                 <div className="flex items-center gap-6">
                     <div className="flex flex-col">
