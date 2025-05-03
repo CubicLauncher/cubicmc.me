@@ -14,8 +14,7 @@ We provide security updates for the following versions:
 We take the security of our project seriously. If you believe you've found a security vulnerability, please follow these steps:
 
 1. **DO NOT** disclose the vulnerability publicly until it has been addressed by our team.
-2. Email your findings to [security@yourdomain.com] with the subject line "Security Vulnerability Report".
-3. Include as much information as possible about the vulnerability:
+2. Include as much information as possible about the vulnerability:
    - The type of vulnerability
    - Steps to reproduce
    - Potential impact
@@ -57,12 +56,6 @@ We follow these security best practices:
 - Proper error handling
 - Secure configuration management
 - Regular security assessments
-
-## Contact
-
-For security-related concerns, please contact:
-- Security Team: security@yourdomain.com
-- Emergency Contact: +1-XXX-XXX-XXXX
 
 ## Updates
 
