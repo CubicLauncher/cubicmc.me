@@ -5,18 +5,31 @@
     "services": "Services",
     "contact": "Contact",
     "downloads": "Downloads",
-    "menu": "Menu",
-    "myAccount": "My Account",
-    "profile": "Profile",
-    "settings": "Settings",
-    "myGames": "My Games",
-    "logout": "Logout"
+    "menu": "Menu"
   },
   "hero": {
     "title": "Cubic",
-    "subtitle": "The best open source and free Minecraft launcher.",
+    "subtitle": "CubicMC Launcher is a customand open source Minecraft launcher that\n lets you play with an offline account without any restrictions.",
     "download": "Download",
-    "openSource": "Open Source"
+    "openSource": "Open Source",
+    "features": {
+      "openSource": {
+        "title": "Open Source",
+        "description": "CubicMc is an open source launcher. All the launcher code is available under the MIT license."
+      },
+      "drmFree": {
+        "title": "DRM-free",
+        "description": "Easily play Minecraft without any restrictions, even if you don't have an online account."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "CubicMc is fast because its interface and code base are optimized and also the library for the minecraft version is very fast."
+      },
+      "customization": {
+        "title": "Customization",
+        "description": "In development"
+      }
+    }
   },
   "footer": {
     "copyright": "© 2024 All rights reserved",
