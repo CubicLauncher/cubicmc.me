@@ -24,7 +24,6 @@ function Footer() {
                     <div className="h-12 w-[1px] bg-white/10"></div>
                     <div className="flex flex-col">
                         <p className="text-sm font-medium hover:text-white transition-all duration-200">{t('footer.version')}</p>
-                        <p className="text-xs text-white/50">{t('footer.beta')}</p>
                     </div>
                 </div>
 
